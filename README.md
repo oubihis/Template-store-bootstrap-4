@@ -1,2 +1,4 @@
-# Stores
-Templates for e-stores private company Sousstech 
+# Welcome to Stores!
+
+Hi! The is **Not Open source Projects**, The projects is a templates for e-commerce.
+
