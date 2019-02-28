@@ -1,0 +1,48 @@
+/* Change this for themes */
+.top-head {
+  background: url('../../images/top-bg.svg') fixed center no-repeat;
+  background-size: cover;
+}
+/* ENd top head */
+.textwidget a {
+	color: $white;
+}	
+.textwidget a:hover {
+	color: $gray-100;
+}
+
+.dropdown-menu {
+border: 1px solid rgba(0, 0, 0, 0);
+background-color: $no-color;          
+}
+
+.dropdown-item:active, .dropdown-item:focus, .dropdown-item:hover{
+	background-color: $no-color; 
+} 
+
+
+.dropdown-toggle::after {
+        display: none !important;
+ }
+
+.dropdown-item {
+ 	padding: .25rem 0.1rem;
+ 	font-size: 14px;
+}
+
+.menu_link {
+  font-size: 16px;
+  font-family: 'Poppins Regular';
+  color: $menu-color !important;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+.message , .dropdown, .dropdown-item {
+  font-family: 'Varela Round';
+}
+
+.nav-item.active a{
+  color: $black !important;
+}
+

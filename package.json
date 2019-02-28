@@ -1,0 +1,51 @@
+{
+  "name": "store",
+  "version": "1.0.0",
+  "description": "Hi! The is Not Open source Projects, The projects is a templates for e-commerce.",
+  "main": "gulpfile.js",
+  "bin": {
+    "store": "install.js"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bootstrap": "^4.3.1",
+    "font-awesome": "^4.7.0",
+    "fs-extra": "^7.0.1",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "@fortawesome/fontawesome-free": "^5.7.2",
+    "browser-sync": "^2.26.3",
+    "del": "^3.0.0",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.1",
+    "webpack-stream": "^5.2.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oubihis/stores.git"
+  },
+  "keywords": [
+    "store"
+  ],
+  "author": "@oubihis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oubihis/stores/issues"
+  },
+  "homepage": "https://github.com/oubihis/stores#readme"
+}
