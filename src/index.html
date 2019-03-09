@@ -1,10 +1,11 @@
 <!doctype html>
-<html lang="en">
+<html class="no-js" lang="en">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
+
     <link rel="stylesheet" href="assets/plugins/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/app.css">
     <link rel="stylesheet" href="assets/css/pages/homepage.css">
@@ -37,9 +38,7 @@
                               </a>
 
                               <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                <a class="dropdown-item" href="#">Action</a>
-                                <a class="dropdown-item" href="#">Another action</a>
-                                <a class="dropdown-item" href="#">Something else here</a>
+                                <a class="dropdown-item" href="#">Arabic</a>
                               </div>
                             </div>
                         </div>
@@ -51,9 +50,7 @@
                               </a>
 
                               <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                <a class="dropdown-item" href="#">Action</a>
-                                <a class="dropdown-item" href="#">Another action</a>
-                                <a class="dropdown-item" href="#">Something else here</a>
+                                <a class="dropdown-item" href="#">EURO</a>
                               </div>
                             </div>
                         </div>
@@ -100,9 +97,6 @@
                     <a class="nav-link menu_link my-lg-0 my-2 my" href="#">Contact us</a>
                   </li>
                 </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <img src="assets/images/icon-search.svg" alt="" width="22">
-                </form>
               </div>
             </nav>  
         </div>
@@ -211,9 +205,11 @@
               <span class="badge-new"> New </span>
               <i class="far fa-heart like"></i>
               <i class="far fa-eye eye"></i>
-              <img class="card-img-top img-fluid pt-4 pb-4" style="background-color:#efefed" src="assets/images/product.png" alt="Card image cap">
+              <a href="#0" class="cd-add-to-cart" data-price="12.99">
+                <img class="card-img-top img-fluid pt-4 pb-4" style="background-color:#efefed" src="assets/images/product.png" alt="Card image cap">
+              </a>
               <div class="card-body">
-                <p class="card-text font-weight-bold title_of_product">Sleeping Night Oil</p>
+                <p class="card-text font-weight-bold title_of_product">Sleeping Night Oil Me</p>
                 <hr class="my-hr">
                 <p class="prices_of_product">12.00<sup>$</sup></p>
               </div>
@@ -398,8 +394,44 @@
           </div>
         </div>
       </div>
-  </div>
+    </div>
     <!-- end -->
+
+    <!-- cart -->
+      <div class="" style="z-index: 9999">
+
+        <div class="cd-cart-container empty">
+          <a href="#0" class="cd-cart-trigger">
+            Cart
+            <ul class="count"> <!-- cart items count -->
+              <li>0</li>
+              <li>0</li>
+            </ul> <!-- .count -->
+          </a>
+
+          <div class="cd-cart">
+            <div class="wrapper">
+              <div class="header_cart">
+                <h2>Cart</h2>
+                <span class="undo">Item removed. <a href="#0">Undo</a></span>
+              </div>
+              
+              <div class="body_cart">
+                <ul>
+                  <!-- products added to the cart will be inserted here using JavaScript -->
+                </ul>
+              </div>
+
+              <div class="footer_cart">
+                <a href="#0" class="checkout"><em>Checkout - $<span>0</span></em></a>
+              </div>
+            </div>
+          </div> <!-- .cd-cart -->
+        </div> <!-- cd-cart-container -->
+  
+
+      </div>
+    <!-- add cart -->
 
 
 
@@ -408,6 +440,9 @@
     <script src="assets/plugins/js/jquery.min.js"></script>
     <script src="assets/plugins/js/popper.min.js"></script>
     <script src="assets/plugins/js/bootstrap.min.js"></script>
+    <script>
+      if( !window.jQuery ) document.write('<script src="https://code.jquery.com/jquery-3.0.0.min.js"><\/script>');
+    </script>
     <!-- your script base -->
     <script src="assets/js/all.js"></script>
 
