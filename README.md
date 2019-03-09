@@ -10,3 +10,5 @@ Hi! The is **Not Open source Projects**, The projects is a templates for e-comme
 
 ## Gulp Starter Kit
 A simple Gulp 4 Starter Kit for modern web development. - [More](https://github.com/oubihis/gulp-starter-kit)
+- **CLI version 2.0.1 _-_
+Local version 4.0.0**
