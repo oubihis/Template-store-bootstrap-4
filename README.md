@@ -12,3 +12,7 @@ Hi! The is **Not Open source Projects**, The projects is a templates for e-comme
 A simple Gulp 4 Starter Kit for modern web development. - [More](https://github.com/oubihis/gulp-starter-kit)
 - **CLI version 2.0.1 _-_
 Local version 4.0.0**
+
+## Add To Cart Interaction
+A floating cart that slides in when the user decides to buy an item. - [code](https://github.com/CodyHouse/add-to-cart-interaction)
+**MIT license.**
