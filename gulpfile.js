@@ -21,7 +21,7 @@ const gulp                      = require('gulp'),
       node_modules_folder       = './node_modules/',
       dist_node_modules_folder  = dist_folder + 'node_modules/',
       js_node_modules_bs4       = 'node_modules/bootstrap/dist/js/bootstrap.min.js',
-      jquery_node_modules       = 'node_modules/jquery/dist/jquery.slim.min.js',
+      jquery_node_modules       = 'node_modules/jquery/dist/jquery.min.js',
       popper_node_modules       = 'node_modules/popper.js/dist/umd/popper.min.js',
       css_node_modules_bs4      = 'node_modules/bootstrap/dist/css/bootstrap.min.css',
 

@@ -46,3 +46,250 @@ background-color: $no-color;
   color: $black !important;
 }
 
+/* SLider */
+
+.slider .overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: linear-gradient(270deg,#f000,$slide-color);
+  z-index: 1;
+}
+
+.slider .carousel-item {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.slider .carousel-one {
+  background-image: url('../../images/slider.png')
+}
+.slider .carousel-tow {
+  background-image: url('../../images/slider-1.jpeg')
+}
+.slider .carousel-three {
+  background-image: url('../../images/slider-2.jpeg')
+}
+
+/* end slider */
+
+h1._say_my_name {
+  font-size: 66px;
+  font-family: "Poppins Medium";
+  color: $themes-one; /* Change color */
+  text-transform: uppercase;
+  line-height: 0.9;
+}
+
+p.new_collection {
+  font-size: 30px;
+  font-family: "Poppins Regular";
+  color: $themes-one-new-collection;
+  text-transform: uppercase;
+  line-height: 1;
+  letter-spacing: 3px;
+}
+
+p.name-produits {
+  font-size: 23px;
+  font-family: "Poppins Regular";
+  color: $themes-one-new-collection;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+.button-slider {
+  border-width: 1px;
+  border-color: $themes-one;
+  border-style: solid;
+  border-radius: 2px;
+  /* shop now text */
+  font-size: 20px;
+  font-family: "Poppins Regular";
+  color: $themes-one;
+  text-transform: uppercase;
+  line-height: 1.2;
+  width: 160px;
+  height: 48px;
+}
+
+.btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 .2rem $themes-one-focus;
+}
+/* end slider */
+
+.my-hr {
+  border-top: 2px solid rgba(0, 0, 0, 0.25);
+  width: 90px;
+}
+
+.topnav {
+  position: absolute;
+  top: 15px;
+  margin-left: -20px;
+  font-size: 10px;
+}
+
+.title-items h2 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.title-items p {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.title-marque h2 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.title-marque p {
+  text-transform: uppercase;
+  text-align: center;
+}
+footer {
+  background-color: $footer_color;
+}
+
+
+.title-marque h2, .title-items h2 {
+  font-size: 33px;
+  font-family: "Poppins Medium";
+  color: rgb(50, 49, 49);
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+.title-marque p, .title-items p {
+  font-size: 16px;
+  font-family: "Poppins ExtraLight";
+  color: rgb(50, 49, 49);
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+.title_of_product {
+  font-size: 13.5px;
+  font-family: "Poppins Medium";
+  color: rgb(6, 6, 6);
+  line-height: 1.2;
+  letter-spacing: 1px;
+}
+
+.prices_of_product {
+  font-size: 18px;
+  font-family: "Poppins Regular";
+  color: rgb(6, 6, 6);
+  line-height: 1.2;
+  letter-spacing: 3px;
+}
+
+.prices_of_product sup {
+  font-size: 12px;
+  font-family: "Poppins Regular";
+  color: rgb(6, 6, 6);
+}
+
+
+.badge-new {
+    top: 7px;
+    left: 7px;
+    position: absolute;
+    display: block;
+    z-index: 10;
+    padding: 2px 7px;
+    font-size: 12px;
+    font-family: "Poppins Light";
+    color: rgb(255, 255, 255);
+    background-color: #02bfd0;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.badge-hot {
+    top: 7px;
+    left: 7px;
+    position: absolute;
+    display: block;
+    z-index: 10;
+    padding: 2px 7px;
+    font-size: 12px;
+    font-family: "Poppins Light";
+    color: rgb(255, 255, 255);
+    background-color: #f26d7d;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.like {
+    top: 7px;
+    right: 7px;
+    position: absolute;
+    display: block;
+    z-index: 10;
+    padding: 7px 7px;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    background-color: #fff;
+    color: black;
+    border-radius: 50%;
+}
+
+.eye {
+    top: 49px;
+    right: 7px;
+    position: absolute;
+    display: block;
+    z-index: 10;
+    padding: 7px 7px;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    background-color: #fff;
+    color: black;
+    border-radius: 50%;
+}
+
+.products_bg{
+  z-index: 0;
+}
+
+#products_bg_left {
+    background-image: url(../../images/left-bg.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+
+#products_bg_right {
+    background-image: url(../../images/right-bg.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    height: 100%;
+    right: 0;
+    position: absolute;
+    width: 100%;
+    margin-top: 250px;
+}
+
+@media only screen and (max-width: 768px) {
+.like , .eye , .badge-new , .badge-hot {
+  font-size: 22px
+  }
+.eye {
+  margin-top: 0.75em
+}
+}
+
+.slider {
+  z-index: 0
+}
