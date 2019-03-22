@@ -1,6 +1,19 @@
+
 body {
   font-family: 'Poppins Regular';
 }
+
+.breadcrumb-bg{
+  background-color: $breadcrumb!important;
+}
+.breadcrumb-link{
+  color: $gray-900!important;
+}
+.breadcrumb-link:hover {
+  color: $themes-one-hover!important;
+}
+
+
 
 a:hover {
     color: $no-color;
@@ -173,6 +186,13 @@ footer {
   background-color: $footer_color;
 }
 
+.f_links {
+  font-size: 13px
+}
+
+.f_links:hover {
+  color: $themes-one-hover!important;;
+}
 
 .title-marque h2, .title-items h2 {
   font-size: 33px;
@@ -191,11 +211,10 @@ footer {
 }
 
 .title_of_product {
-  font-size: 13.5px;
-  font-family: "Poppins Medium";
-  color: rgb(6, 6, 6);
-  line-height: 1.2;
-  letter-spacing: 1px;
+font-size: 14.5px;
+font-family: Roboto,sans-serif;
+line-height: 1.2;
+letter-spacing: 1px;
 }
 
 .prices_of_product {
@@ -244,6 +263,7 @@ footer {
 }
 
 .like {
+    line-height: 0;
     top: 7px;
     right: 7px;
     position: absolute;
@@ -255,6 +275,11 @@ footer {
     color: black;
     border-radius: 50%;
     z-index: 1;
+}
+
+.like:hover {
+    color: $themes-one-hover;
+    background-color: #fff;
 }
 
 .eye {
@@ -270,6 +295,12 @@ footer {
     border-radius: 50%;
     z-index: 1;
 }
+
+.eye:hover {
+    color: #f26d7d;
+    background-color: #fff;
+}
+
 
 .products_bg{
   z-index: 0;
@@ -595,7 +626,7 @@ position: absolute;
   height: 72px;
   line-height: 72px;
   margin-right: 72px;
-  background: #2c97de;
+  background: $themes-one;
   color: rgba(255, 255, 255, 0);
   text-align: center;
   font-size: 1.4rem;
@@ -604,7 +635,7 @@ position: absolute;
   transition: all .2s 0s;
 }
 .cd-cart .checkout:hover {
-  background: #399ee0;
+  background: $themes-one-hover;
 }
 .cd-cart .checkout em {
   position: relative;
@@ -1026,3 +1057,15 @@ position: absolute;
 
 /* remove select */
 .quantity { display: none;}
+
+/* zoom peoduct in hover */
+
+.zoom:hover {
+  box-shadow: 0 4px 10px 0 $themes-one-focus;
+  -ms-transform: scale(1.01); /* IE 9 */
+  -webkit-transform: scale(1.01); /* Safari 3-8 */
+  transform: scale(1.01); 
+}
+
+
+/* Page category list*/
