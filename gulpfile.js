@@ -172,4 +172,4 @@ gulp.task('watch', () => {
   gulp.watch(watchVendor, gulp.series('vendor')).on('change', browserSync.reload);
 });
 
-gulp.task('default', gulp.series('build', gulp.parallel('serve', 'watch')));
+gulp.task('said', gulp.series('build', gulp.parallel('serve', 'watch')));
