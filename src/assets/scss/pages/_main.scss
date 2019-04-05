@@ -4,7 +4,7 @@ body {
 }
 
 .breadcrumb-bg{
-  background-color: $breadcrumb!important;
+  background-color: #e9ecef!important;
 }
 .breadcrumb-link{
   color: $gray-900!important;
@@ -1069,3 +1069,164 @@ position: absolute;
 
 
 /* Page category list*/
+
+
+.hero-search {
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    font-size: 14px;
+  font-family: 'Lato';
+  color: rgb(197, 194, 194);
+  opacity: 0.5; 
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    font-size: 14px;
+  font-family: 'Lato';
+  color: rgb(197, 194, 194);
+  opacity: 0.5; 
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    font-size: 14px;
+  font-family: 'Lato';
+  color: rgb(197, 194, 194);
+  opacity: 0.5;
+}
+
+}
+
+/*  */
+.Search {
+  font-size: 16px;
+  font-family: "Lato";
+  color: rgb(51, 51, 51);
+}
+
+.hero-badge {
+
+    border-radius: 25% !important;
+    padding: .5em 0.5em;
+    background-color: #93a165;
+    color: #fff;
+
+}
+
+.New_Arrivals {
+  font-size: 13px;
+  font-family: "Lato";
+  color: rgb(51, 51, 51);
+}
+
+.custom-control-input:not(:disabled):active ~ .custom-control-label::before {
+
+    color: #fff;
+    background-color: #3bc019;
+    border-color: #57f253;
+
+}
+.custom-control-input:checked ~ .custom-control-label::before {
+
+    color: #fff;
+    border-color: #52c66c;
+    background-color: #52c66c;
+
+}
+.custom-control-input:focus ~ .custom-control-label::before {
+
+    box-shadow: 0 0 0 .2rem rgba(0, 255, 21, 0.25);
+
+}
+
+.hero-custom {
+  font-size: 13px!important;
+  font-family: "Lato";
+  color: rgb(51, 51, 51);
+}
+
+.tags {
+  background-color: rgb(220, 255, 211);
+  padding: 10px;
+border-radius: 13px;
+  font-size: 13px;
+  font-family: "Lato";
+  color: rgb(51, 51, 51);
+  font-weight: 300;
+}
+
+.tags:hover {
+  background-color: #a3cf97;
+  padding: 10px;
+ border-radius: 13px;
+  font-size: 13px;
+  font-family: "Lato";
+  color: rgb(51, 51, 51);
+  font-weight: 300;
+}
+
+.hero-custom::before {
+    top: 0.1rem;
+}
+
+.Alphabetically {
+  font-size: 16px;
+  font-family: "Lato";
+  color: rgb(128, 126, 126);
+}
+
+.Alphabetically:hover {
+  font-size: 16px;
+  font-family: "Lato";
+  color: rgb(128, 126, 126);
+}
+
+.page-link {
+    background-color: #fff;
+    border: 1px solid #FFF;
+    width: 40px;
+    text-align: center;
+box-shadow: 0 0 0 .2rem rgba(0, 123, 255, 0);
+
+  font-size: 15px;
+
+  color: rgb(139, 158, 134);
+
+}
+
+.page-link:focus, .page-link:active {
+    z-index: 2;
+    outline: 0;
+
+    z-index: 2;
+color: #fff;
+text-decoration: none;
+background-color: #8b9e86;
+border-color: #8b9e86;
+}
+.page-link:hover {
+z-index: 2;
+color: #fff;
+text-decoration: none;
+background-color: #8b9e86;
+border-color: #8b9e86;
+}
+
+.page-item:first-child .page-link {
+    margin-left: 0;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-radius: 50%;
+}
+.page-item:last-child .page-link {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-radius: 50%;
+}
+.page-link {
+    background-color: #e3e3e3;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin: 5px;
+        margin-left: 5px;
+}
+
+/* ================= lists ================= */
