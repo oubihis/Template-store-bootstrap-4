@@ -15,7 +15,8 @@
     <title>Hello, Biougra!</title>
   </head>
   <body style="background-color: #fafafa">
-
+      <div class="products_bg" id="products_bg_right" style="z-index: -2;"></div>
+      <div class="products_bg" id="products_bg_left" style="z-index: -2;"></div>
     <!-- Top head -->
     <section class="top-head d-none d-sm-block py-2 ">
         <div class="container">
@@ -104,7 +105,6 @@
     </div>
     <!-- End Menu -->
 
-
     <!-- breadcrumb -->
     <div class="breadcrumb-bg py-3">
         <div class="container">
@@ -126,83 +126,211 @@
     <!-- ENd breadcrumb -->
 
 
-<main id="product" class="my-5">
-  <div class="container ">
+    <main id="product" class="my-5">
+      <div class="container ">
+        <div class="row rounded-lg bg-white shadow d-flex justify-content-center">
+          <aside class="col-lg-5 col-sm-12">
+            <article class="gallery-wrap"> 
+              <div class="img-big-wrap">
+                <div>
+                  <a href="assets/images/product.png" data-fancybox="">
+                    <img src="assets/images/product.png">
+                  </a>
+                </div>
+              </div> 
+              <div class="img-small-wrap">
+                <div class="item-gallery"> <img src="assets/images/product.png"></div>
+                <div class="item-gallery"> <img src="assets/images/product.png"></div>
+                <div class="item-gallery"> <img src="assets/images/product.png"></div>
+                <div class="item-gallery"> <img src="assets/images/product.png"></div>
+              </div> 
+            </article> 
+          </aside>
+          <aside class="col-lg-6 col-sm-12 ml-4 mt-3">
+            <article class="description-wrap"> <!-- And who are you, The proud lord said, -->
+              <div class="title-big-wrap mb-3 mt-5">
+                <h2>Organic Argan Oil For Hair</h2>
+              </div>
+              <div class="rating-wrap">
 
-  <div class="row no-gutters rounded-lg bg-white shadow">
-    <aside class="col-sm-6">
-      <article class="gallery-wrap"> 
-        <div class="img-big-wrap">
-          <div>
-            <a href="assets/images/product.png" data-fancybox="">
-              <img src="assets/images/product.png">
-            </a>
+                <ul class="rating-stars mr-2">
+                  <li style="width:70%" class="stars-active"> 
+                    <i class="fa fa-star"></i> <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> 
+                  </li>
+                  <li>
+                    <i class="fa fa-star"></i> <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> <i class="fa fa-star"></i> 
+                    <i class="fa fa-star"></i> 
+                  </li>
+                </ul>
+
+                
+                <div class="label-rating ml-3">
+                  <div class=" d-flex align-items-center">
+                    <span class="lnr lnr-heart mr-1"></span> 
+                    <a href="#" style="color: #6c757d">add to wishlist</a> 
+                  </div>
+                </div>
+              </div>
+              <div class="custom-description-wrap my-5">
+                <p>Finally, another approach often cited in debates of scientific skepticism against controversial movements like "scientific creationism", is naturalism. Its main point is that a difference between natural and supernatural explanations should be made, and that science should be restricted methodologically to natural explanations.</p>
+              </div>
+
+              <div class="quantity-wrap my-1 d-flex align-items-center">
+                <span class="mr-4 Quantity-watos">Quantity</span>
+                <div class="ctrl py-1">
+                  <div class="ctrl__button ctrl__button--decrement">&ndash;</div>
+                    <div class="ctrl__counter">
+                      <input class="ctrl__counter-input" maxlength="10" type="text" value="0">
+                      <div class="ctrl__counter-num">0</div>
+                    </div>
+                  <div class="ctrl__button ctrl__button--increment">+</div>
+                </div>
+              </div>
+
+              <div class="color-size my-3 d-flex align-items-center ">
+                <span class="mr-4 Quantity-watos">Quantity</span>
+                <div class="c-s-warp Red_BLACK">
+                  <a href="#" class="">Red</a>
+                  <a href="#" class="">Black</a>
+                  <a href="#" class="">Black</a>
+                </div>
+              </div>
+
+              <hr class="border-bottom mr-lg-4">
+               
+              <div class="cat-price my-3 d-flex bd-highlight align-items-center">
+                <a href="" class="btn Button  px-5 py-3 mr-auto">Commendez</a>
+                <span class="prix bd-highlight  ml-auto mr-sm-5">$109<sup>99</sup></span>
+              </div>
+            </article>
+          </aside> <!-- col.// -->
+        </div> <!-- row.// -->
+      </div>
+      <div class="container my-3">
+        <div class="row rounded-lg bg-white shadow wampr-decoration">
+          <h2 class="pt-3 pl-3 m-0">Description Product</h2>
+          <p class="text-justify p-3 m-0" style="color: #6c757d;">Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet fermentum. Donec sed odio operae, eu vulputate felis rhoncus. Praeterea iter est quasdam res quas ex communi. At nos hinc posthac, sitientis piros Afros. Petierunt uti sibi concilium totius Galliae in diem certam indicere. Cras mattis iudicium purus sit amet fermentum.</p>
+        </div>
+      </div>
+    </main>
+    <!-- Featured products -->
+
+    <div class="products ">
+      <div class="container">
+        <div class="title-items mb-5">
+          <h2>new products</h2>
+          <p>-featured products-</p>
+        </div>
+        <div class="row mt-3">
+          <div class="col-lg-3 col-md-6 col-sm-12 mb-4 px-3 text-center">
+
+            <div class="card border-0 " style="">
+              <div class="zoom">
+                <span class="badge-new"> New </span>
+                <a data-original-title="Save to Wishlist" title="" href="" class="like" data-toggle="tooltip"> <i class="lnr lnr-heart"></i></a>
+                <a href="#0" class="cd-add-to-cart" data-price="12.99">
+                <i class="lnr lnr-cart eye"></i>
+                </a>
+                  <img class="card-img-top img-fluid pt-4 pb-4 " style="background-color:#efefed" src="assets/images/product.png" alt="Card image cap">
+                
+              </div>
+              <div class="card-body">
+                <p class="card-text font-weight-bold title_of_product">Sleeping Night Oil Me</p>
+                <hr class="my-hr">
+                <p class="prices_of_product">12.00<sup>$</sup></p>
+              </div>
+            </div>
           </div>
-        </div> 
-        <div class="img-small-wrap">
-          <div class="item-gallery"> <img src="assets/images/product.png"></div>
-          <div class="item-gallery"> <img src="assets/images/product.png"></div>
-          <div class="item-gallery"> <img src="assets/images/product.png"></div>
-          <div class="item-gallery"> <img src="assets/images/product.png"></div>
-        </div> 
-      </article> 
-    </aside>
-    <aside class="col-sm-6 mt-3">
-<article class="description-wrap"> <!-- And who are you, The proud lord said, -->
-  <div class="title-big-wrap mb-3 mt-5">
-    <h2>Organic Argan Oil For Hair</h2>
-  </div>
-  <div class="rating-wrap">
+          <div class="col-lg-3 col-md-6 col-sm-12 mb-4 px-3 text-center">
 
-    <ul class="rating-stars mr-2">
-      <li style="width:70%" class="stars-active"> 
-        <i class="fa fa-star"></i> <i class="fa fa-star"></i> 
-        <i class="fa fa-star"></i> <i class="fa fa-star"></i> 
-        <i class="fa fa-star"></i> 
-      </li>
-      <li>
-        <i class="fa fa-star"></i> <i class="fa fa-star"></i> 
-        <i class="fa fa-star"></i> <i class="fa fa-star"></i> 
-        <i class="fa fa-star"></i> 
-      </li>
-    </ul>
+            <div class="card border-0 " style="">
+              <div class="zoom">
+                <span class="badge-hot"> Hot </span>
+                <a data-original-title="Save to Wishlist" title="" href="" class="like" data-toggle="tooltip"> <i class="lnr lnr-heart"></i></a>
+                <a href="#0" class="cd-add-to-cart" data-price="12.99">
+                <i class="lnr lnr-cart eye"></i>
+                </a>
+                  <img class="card-img-top img-fluid pt-4 pb-4 " style="background-color:#efefed" src="assets/images/product.png" alt="Card image cap">
+                
+              </div>
+              <div class="card-body">
+                <p class="card-text font-weight-bold title_of_product">Sleeping Night Oil Me</p>
+                <hr class="my-hr">
+                <p class="prices_of_product">12.00<sup>$</sup></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 mb-4 px-3 text-center">
 
-    
-    <div class="label-rating ml-3">
-      <div class=" d-flex align-items-center">
-        <span class="lnr lnr-heart mr-1"></span> 
-        <a href="#" style="color: #6c757d">add to wishlist</a> 
+            <div class="card border-0 " style="">
+              <div class="zoom">
+                <span class="badge-new"> New </span>
+                <a data-original-title="Save to Wishlist" title="" href="" class="like" data-toggle="tooltip"> <i class="lnr lnr-heart"></i></a>
+                <a href="#0" class="cd-add-to-cart" data-price="12.99">
+                <i class="lnr lnr-cart eye"></i>
+                </a>
+                  <img class="card-img-top img-fluid pt-4 pb-4 " style="background-color:#efefed" src="assets/images/product.png" alt="Card image cap">
+                
+              </div>
+              <div class="card-body">
+                <p class="card-text font-weight-bold title_of_product">Sleeping Night Oil Me</p>
+                <hr class="my-hr">
+                <p class="prices_of_product">12.00<sup>$</sup></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 mb-4 px-3 text-center">
+
+            <div class="card border-0 " style="">
+              <div class="zoom">
+                <span class="badge-new"> New </span>
+                <a data-original-title="Save to Wishlist" title="" href="" class="like" data-toggle="tooltip"> <i class="lnr lnr-heart"></i></a>
+                <a href="#0" class="cd-add-to-cart" data-price="12.99">
+                <i class="lnr lnr-cart eye"></i>
+                </a>
+                  <img class="card-img-top img-fluid pt-4 pb-4 " style="background-color:#efefed" src="assets/images/product.png" alt="Card image cap">
+                
+              </div>
+              <div class="card-body">
+                <p class="card-text font-weight-bold title_of_product">Sleeping Night Oil Me</p>
+                <hr class="my-hr">
+                <p class="prices_of_product">12.00<sup>$</sup></p>
+              </div>
+            </div>
+          </div>                               
+        </div>
       </div>
     </div>
-  </div>
-  <div class="custom-description-wrap my-5">
-    <p>Finally, another approach often cited in debates of scientific skepticism against controversial movements like "scientific creationism", is naturalism. Its main point is that a difference between natural and supernatural explanations should be made, and that science should be restricted methodologically to natural explanations.</p>
-  </div>
-
-<div class="quantity-wrap my-2">
-
-<div class='ctrl'>
-  <div class='ctrl__button ctrl__button--decrement'>&ndash;</div>
-    <div class='ctrl__counter'>
-      <input class='ctrl__counter-input' maxlength='10' type='text' value='0'>
-      <div class='ctrl__counter-num'>0</div>
-    </div>
-  <div class='ctrl__button ctrl__button--increment'>+</div>
-</div>
+    <!-- End -->
 
 
-</div>
 
-
-</article>
-      
-    </aside> <!-- col.// -->
-  </div> <!-- row.// -->
-
-  </div>
-</main>
-
-
+    <footer class="footer py-3 mt-5">
+      <div class="container-fluid">
+        <div class="row text-center">
+          <div class="col-md-4 text-lg-left mt-lg-0 mt-2 mb-2">
+            <span class="">
+              <ul class="d-inline navbar-nav">
+                <li class="d-inline mx-1 "><a href="" class="text-muted f_links">Privacy Policy</a></li>
+                <li class="d-inline mx-1 "><a href="" class="text-muted f_links">Returns</a></li>
+                <li class="d-inline mx-1 "><a href="" class="text-muted f_links">Terms & Conditions</a></li>
+              </ul>
+            </span>
+          </div>
+          <div class="col-md-4 mt-lg-0 mt-md-2 mb-md-2">
+            <span class="text-muted text-center">© 2019 SnsTheme. All Rights Reserved.</span>
+          </div>
+          <div class="col-md-4 text-lg-right">
+            <div class="mt-lg-0 mt-md-2 mb-md-2">
+              <img src="assets/images/payments.png" alt="" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="assets/plugins/js/jquery.min.js"></script>

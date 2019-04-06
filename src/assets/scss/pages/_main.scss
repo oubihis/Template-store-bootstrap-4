@@ -1470,17 +1470,23 @@ color: #323131cc;
 
 
 .ctrl {
+  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-align: center;
   align-items: center;
   background-color: #fff;
-  border-radius: 5px;
-  font-size: 30px;
+  border-radius: 50px;
+  font-size: 16px;
+  max-width: 125px;
+  border: 1px solid #e7e4e0;
 }
+
 .ctrl__counter {
   position: relative;
   width: 200px;
-  height: 100px;
+  height: 25px;
   color: #333C48;
   text-align: center;
   overflow: hidden;
@@ -1506,7 +1512,7 @@ color: #323131cc;
   border: none;
   color: #333C48;
   font-size: 30px;
-  line-height: 100px;
+  line-height: 25px;
   text-align: center;
   visability: hidden;
   opacity: 0;
@@ -1519,7 +1525,7 @@ color: #323131cc;
   left: 0;
   right: 0;
   bottom: 0;
-  line-height: 100px;
+  line-height: 25px;
   visability: visible;
   opacity: 1;
   transition: opacity 1000ms ease-in;
@@ -1554,7 +1560,7 @@ color: #323131cc;
 }
 .ctrl__button {
   width: 100px;
-  line-height: 100px;
+  line-height: 25px;
   text-align: center;
   color: #90a2b0;
   cursor: pointer;
@@ -1632,4 +1638,66 @@ color: #323131cc;
     -webkit-transform: translateY(50px);
             transform: translateY(50px);
   }
+}
+
+.Quantity-watos {
+  font-size: 10px;
+  font-family: "Lato Medium";
+  color: rgb(159, 163, 167);
+  text-transform: uppercase;
+}
+
+.Red_BLACK a{
+  font-size: 10px;
+  font-family: "Lato Bold";
+  color: rgb(33, 33, 33);
+  text-transform: uppercase;
+}
+
+.Red_BLACK a:hover{
+  color: rgb(33, 33, 33);
+}
+
+.Red_BLACK a {
+  margin-right: 10px
+}
+
+.Button {
+  border-width: 1px;
+  border-color: rgb(80, 119, 66);
+  border-style: solid;
+  border-radius: 5px;
+  background-color: rgb(80, 119, 66);
+}
+
+.cat-price a {
+  font-size: 13px;
+  font-family: "Lato";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.cat-price span {
+  font-size: 28px;
+  font-family: "Lato";
+  color: rgb(32, 32, 32);
+  font-weight: 900;
+}
+
+.cat-price span sup {
+  font-size: 18px;
+  font-family: "Lato";
+  color: rgb(159, 163, 167);
+}
+
+.wampr-decoration h2 {
+  font-size: 20px;
+
+}
+.wampr-decoration p {
+  color: #6c757d;
+  font-size: 16px;
+  font-family: Lato;
+  font-weight: 500;
 }
