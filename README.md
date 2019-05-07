@@ -1,7 +1,7 @@
 # Welcome!
 > Let's do something wonderful :)
 
-Hi! The is **Open source Projects**, The projects is a templates for e-commerce.
+Hi! The is **Open source Project**, The project is a template for e-commerce.
 
 [![Build status](https://img.shields.io/travis/feathericons/feather/master.svg?style=popout-square&logo=laravel)]()
 [![npm version](https://img.shields.io/badge/npm-V.5.6.0-brightgreen.svg?style=popout-square&logo=npm)]()
