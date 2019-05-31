@@ -13,9 +13,6 @@ A simple Gulp 4 Starter Kit for modern web development. - [More](https://github.
 - **CLI version 2.0.1 _-_
 Local version 4.0.0**
 
-## Demo
-[HomePage](http://stores.oubihis.com)
-[Product detail](http://stores.oubihis.com/product_detail.html)
 
 ## Add To Cart Interaction
 A floating cart that slides in when the user decides to buy an item. - [code](https://github.com/CodyHouse/add-to-cart-interaction)
